@@ -1,0 +1,37 @@
+* {
+box-sizing: border-box;
+}
+
+
+body {
+    font-family:'Do Hyeon', sans-serif;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.coming-soon {
+    min-height:80vh;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content: center;
+}
+
+img {
+    max-height: 40vh;
+    max-width: 40vh;
+    padding: 20px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day,.hour,.minute,.second {
+    font-size: 3rem;
+}
